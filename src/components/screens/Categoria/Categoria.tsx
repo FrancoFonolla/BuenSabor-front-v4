@@ -114,9 +114,9 @@ const Categoria: React.FC = () => {
                         color="secondary"
                         startIcon={<AddIcon />}
                         sx={{
-                            backgroundColor: '#fb6376',
+                            backgroundColor: '#0023F5',
                             "&:hover": {
-                                bgcolor: "#d73754",
+                                bgcolor: "#00129A",
                             },
                         }}
                         onClick={handleAddCategoria}
@@ -141,7 +141,7 @@ const Categoria: React.FC = () => {
                 </Box>
                 {isLoading ? (
                     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
-                        <CircularProgress sx={{ color: '#fb6376' }} />
+                        <CircularProgress sx={{ color: '#0023F5' }} />
                     </Box>
                 ) : filteredData.length === 0 ? (
                     <EmptyState

@@ -415,9 +415,9 @@ const ModalInsumo: React.FC<ModalInsumoProps> = ({
                         startIcon={<PhotoCamera />}
                         sx={{
                             my: 2,
-                            bgcolor: "#fb6376",
+                            bgcolor: "#3282F6",
                             "&:hover": {
-                                bgcolor: "#d73754",
+                                bgcolor: "#00023D",
                             },
                         }}
                     >

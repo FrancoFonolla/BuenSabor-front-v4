@@ -48,7 +48,7 @@ const renderActions = (actions: Action[]) => {
         onClick={action.onClick}
         aria-label={action.tooltip}
         disabled={action.disabled}
-        sx={{ color: '#fb6376', '&:hover': { color: '#d73754' } }}
+        sx={{ color: '#0023F5', '&:hover': { color: '#00129A' } }}
       >
         {action.icon}
       </IconButton>
