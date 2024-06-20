@@ -61,7 +61,7 @@ const ModalUnidadMedida: React.FC<ModalUnidadMedidaProps> = ({ open, onClose, on
             variant="contained"
             fullWidth
             type="submit"
-            sx={{ mt: 2, backgroundColor: '#3282F6', "&:hover": { bgcolor: "#00023D" } }}
+            sx={{ mt: 2, backgroundColor: '#ffA500', "&:hover": { bgcolor: "#00023D" } }}
           >
             {initialData ? 'Actualizar' : 'Agregar'}
           </Button>

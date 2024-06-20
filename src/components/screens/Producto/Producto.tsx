@@ -124,9 +124,9 @@ const Producto = () => {
             variant="contained"
             startIcon={<Add />}
             sx={{
-              bgcolor: "#0023F5",
+              bgcolor: "#fe5a1d",
               "&:hover": {
-                bgcolor: "#00129A",
+                bgcolor: "#FFA500",
               },
               padding: "10px 20px",
               fontSize: "1.0rem",
@@ -140,7 +140,7 @@ const Producto = () => {
         </Box>
         {isLoading ? (
           <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
-            <CircularProgress sx={{ color: '#0023F5' }} />
+            <CircularProgress sx={{ color: '#fe5a1d' }} />
           </Box>
         ) : (
 

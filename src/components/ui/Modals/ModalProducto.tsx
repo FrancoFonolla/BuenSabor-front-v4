@@ -514,7 +514,7 @@ const ModalProducto: React.FC<ModalProductoProps> = ({
                     startIcon={<PhotoCamera />}
                     sx={{
                         my: 2,
-                        bgcolor: "#3282F6",
+                        bgcolor: "#ffA500",
                         "&:hover": {
                             bgcolor: "#00023D",
                         },

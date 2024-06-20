@@ -52,7 +52,7 @@ const TableUnidadMedida: React.FC = () => {
           icon: 'success',
           title: '¡Éxito!',
           text: 'La unidad de medida ha sido actualizada correctamente',
-          confirmButtonColor: '#3282F6',
+          confirmButtonColor: '#ffA500',
         });
       } else {
         unit.id = Date.now();
@@ -62,7 +62,7 @@ const TableUnidadMedida: React.FC = () => {
           icon: 'success',
           title: '¡Éxito!',
           text: 'La unidad de medida ha sido agregada correctamente',
-          confirmButtonColor: '#3282F6',
+          confirmButtonColor: '#ffA500',
         });
       }
       handleModalClose();
@@ -119,9 +119,9 @@ const TableUnidadMedida: React.FC = () => {
           color="secondary"
           onClick={handleModalOpen}
           sx={{
-            backgroundColor: '#3282F6',
+            backgroundColor: '#ffA500',
             "&:hover": {
-              bgcolor: "#00129A",
+              bgcolor: "#FFA500",
             },
           }}
         >
