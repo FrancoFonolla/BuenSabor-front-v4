@@ -15,7 +15,7 @@ const CardSucursal: React.FC<CardSucursalProps> = ({ sucursal, onEdit }) => {
   return (
     <Card sx={{ maxWidth: 400, margin: 2, boxShadow: 3, borderRadius: 2 }}>
       <CardContent>
-        <Typography variant="h5" component="div" sx={{ color: '#0023F5', fontWeight: 'bold' }}>
+        <Typography variant="h5" component="div" sx={{ color: '#fe5a1d', fontWeight: 'bold' }}>
           {sucursal.nombre}
         </Typography>
         <Divider sx={{ my: 1 }} />
@@ -26,14 +26,14 @@ const CardSucursal: React.FC<CardSucursalProps> = ({ sucursal, onEdit }) => {
           <strong>Dirección:</strong> {sucursal.domicilio.calle} {sucursal.domicilio.numero}, {sucursal.domicilio.localidad.provincia.nombre}, {sucursal.domicilio.localidad.provincia.pais.nombre} 
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          <strong>Casa Matriz:</strong> {sucursal.esCasaMatriz ? <CheckCircleOutline sx={{ color: '#9FFCFD' }} /> : <HighlightOff sx={{ color: '#367E7F' }} />}
+          <strong>Casa Matriz:</strong> {sucursal.esCasaMatriz ? <CheckCircleOutline sx={{ color: '#ffcc99' }} /> : <HighlightOff sx={{ color: '#367E7F' }} />}
         </Typography>
       </CardContent>
       <Box sx={{ display: 'flex', justifyContent: 'center', p: 2 }}>
         <Button
           onClick={() => onEdit(sucursal)}
           variant="contained"
-          sx={{ bgcolor: '#0023F5', '&:hover': { bgcolor: '#0000FF' }, mr: 1 }}
+          sx={{ bgcolor: '#fe5a1d', '&:hover': { bgcolor: '#0000FF' }, mr: 1 }}
           startIcon={<Edit />}
         >
           Editar
@@ -50,7 +50,7 @@ const CardSucursal: React.FC<CardSucursalProps> = ({ sucursal, onEdit }) => {
           component={Link}
           to={`/dashboard/${sucursal.id}`} // Asegúrate de que esta ruta sea correcta
           variant="contained"
-          sx={{ bgcolor: '#9FFCFD', '&:hover': { bgcolor: '#00023D' }}}
+          sx={{ bgcolor: '#ffcc99', '&:hover': { bgcolor: '#00023D' }}}
         >
           Dashboard
         </Button>
