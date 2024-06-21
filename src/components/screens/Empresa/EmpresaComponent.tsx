@@ -143,7 +143,7 @@ const EmpresaComponent: React.FC = () => {
                                             fetchSucursalesForEmpresa(empresa.id);
                                             navigate(`/empresa/${empresa.id}`);
                                         }}
-                                        sx={{ color: '#ffffff', backgroundColor: '#00129A', fontSize: '0.70rem', padding: '9px 15px', '&:hover': { backgroundColor: '#fa5064' } }}
+                                        sx={{ color: '#ffffff', backgroundColor: '#00129A', fontSize: '0.70rem', padding: '9px 15px', '&:hover': { backgroundColor: '#0023F5' } }}
                                     >
                                         Sucursales
                                     </Button>
